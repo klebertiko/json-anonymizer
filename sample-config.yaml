@@ -1,0 +1,9 @@
+person.email:
+  regex: '(?<=.{1}).(?=[^@]*?@)'
+  replace: '*'
+person.phone:
+  regex: '[0-9](?![0-9]{0,3}$)'
+  replace: 9
+person.address.number:
+  regex: '\d'
+  replace: 0
